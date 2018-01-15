@@ -1,0 +1,13 @@
+---
+title: "Lab 01 - Hello R!"
+author: "Mine Cetinkaya-Rundel"
+date: "1/14/2018"
+output: html_document
+---
+
+### Exercise 1
+
+### Exercise 2
+
+### Exercise 3
+
