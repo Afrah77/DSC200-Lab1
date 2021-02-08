@@ -1,6 +1,6 @@
 ---
 title: "Lab 01 - Hello R"
-author: "AFRAH Jaber alanzi"
+author: "AFRAH Jaber "
 date: "1/2/2021"
 output: html_document
 ---
@@ -17,4 +17,4 @@ library(datasauRus)
 
 ### Lab Exercise
 
-Added answer for task 3 
+Added answer for task 4
