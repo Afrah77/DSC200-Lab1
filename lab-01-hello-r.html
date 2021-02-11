@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 
 <html>
-<head> 
+
+<head>
 
 <meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="AFRAH" />
+<meta name="author" content="AFRAH Jaber" />
 
 
 <title>Lab 01 - Hello R</title>
@@ -188,7 +189,7 @@ summary {
 
 
 <h1 class="title toc-ignore">Lab 01 - Hello R</h1>
-<h4 class="author">AFRAH</h4>
+<h4 class="author">AFRAH Jaber</h4>
 <h4 class="date">1/2/2021</h4>
 
 </div>
@@ -208,6 +209,13 @@ library(datasauRus)</code></pre>
 <pre><code>    r
 &lt;dbl&gt;</code></pre>
 <p>1 -0.0645</p>
+<blockquote>
+<p>star_data &lt;-datasaurus_dozen %&gt;%filter(dataset == “star”)</p>
+</blockquote>
+<blockquote>
+<p>ggplot(data = star_data, mapping = aes(x = x, y = y)) +geom_point() star_data %&gt;%summarize(r = cor(x, y)) # A tibble: 1 x 1 r <dbl> 1 -0.0630</p>
+</blockquote>
+<p>circle_data &lt;-datasaurus_dozen %&gt;%filter(dataset == “circle”) &gt; &gt; ggplot(data = circle_data, mapping = aes(x = x, y = y)) +geom_point() &gt; &gt; circle_data %&gt;%summarize(r = cor(x, y)) # A tibble: 1 x 1 r <dbl> 1 -0.0683 &gt; &gt; datasaurus_dozen %&gt;% group_by(dataset) %&gt;% summarize(r = cor(x, y)) %&gt;% print(13) # A tibble: 13 x 2 dataset r * <chr> <dbl> 1 away -0.0641 2 bullseye -0.0686 3 circle -0.0683 4 dino -0.0645 5 dots -0.0603 6 h_lines -0.0617 7 high_lines -0.0685 8 slant_down -0.0690 9 slant_up -0.0686 10 star -0.0630 11 v_lines -0.0694 12 wide_lines -0.0666 13 x_shape -0.0656</p>
 <p>“Done with Lab 2”</p>
 </div>
 
