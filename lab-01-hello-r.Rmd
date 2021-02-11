@@ -15,6 +15,11 @@ library(datasauRus)
 ```
 
 
-### Lab Exercise
-"Done with Lab 2”
+### Lab Exercise dino_data %>%summarize(r = cor(x, y))
+# A tibble: 1 x 1
+        r
+    <dbl>
+1 -0.0645
+
+"Done with Lab 2” 
 
