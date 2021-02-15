@@ -13,7 +13,11 @@ University ID:2201002977
 library(tidyverse) 
 library(datasauRus)
 ```
+> summarise(datasaurus_dozen)
+> head(datasaurus_dozen)
+> View(datasaurus_dozen)
 
+#answer for lab 1  (This package wraps the awesome Datasaurus Dozen dataset, which contains 13 sets of x-y data. Each sub-dataset has five statistics that are (almost) the same in each case. (These are the mean of x, mean of y, standard deviation of x, standard deviation of y, and Pearson correlation between x and y). However, scatter plots reveal that each sub-dataset looks very different. The dataset is intended to be used to teach students that it is important to plot their own datasets, rather than relying only on statistics.)
 
 ### Lab Exercise dino_data %>%summarize(r = cor(x, y))
 # A tibble: 1 x 1
